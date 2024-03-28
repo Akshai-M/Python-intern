@@ -1,0 +1,18 @@
+Type conversion:-
+Converting of one Dt into another Dt
+impicit conversion:-the conversion is done automaticlly 
+x=5
+z=2.5
+y=x+z
+print(y)
+
+explicit conversion:-the conversion is done wantedly or intentionally
+x=5.25
+print(x)
+print(int(x))
+
+1.Problem statement:Days to years,Months, and Days Coversion
+I/p:-The prog should accept a +ve int, where 1<=n<=10^7
+O/p:-The prog should
+
+
