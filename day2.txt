@@ -1,0 +1,106 @@
+31/10/23
+-print("$%6d$"1122):-Here %6d will take six spaces but according to integer value assigned it will print the space
+o/p:- $__1122$
+
+
+1.padding(0):- 	     $001122$(0's will be printed in the place of space)
+2.justification(-):- $1122  $(content will jutified on right side)
+3.sign(+):-1st prior	     $ +1122$
+
+	|%| |flag| |width| |precision| |code|
+
+	stack token
+
+print("$%+6d$"%-1122,end="")
+print("$%0-+9d$"%1122)  :-	$ -1122$$+1122    $
+(both the statements will be printed in one line)
+
+POP v/s OOP:-
+
+1.Paradigm Focus:- 
+pop:-the prog is structured around procedures or functions that operate on data.
+oop:-the prog is designed as a collection of objects.
+
+2.Data Handling:-
+pop:- Data & procedures are seperate.Fuction takes data as i/p,process it and gives result
+oop:-Objects contain both data and methods.Objects can operate on their own data,promoting encapsulation
+
+3.Reusability:-
+pop:-Functions can be reused but emphasis is not inherently on reusing code structures.
+oop:-code reuse through the creation of classes and obj.Once a class is defined,it can be instantiated
+
+4.Encapsulation:-
+pop:-Data is often global or passed b/w f().There's less control over accesss to data.
+oop:-Data is hidden within the obj's,access to data is controlled through methods,enhancing,security and control.
+
+Compiler v/s Interpreter:-
+
+1.Translate
+Entire prog v/s One stat at a time
+2.Error Generation Occurence
+After complete translation v/s Stops translation immediately
+3.Translation unit
+Obj code v/s Byte code
+4.Execution of code
+Only Translate v/s Translate as well as execute
+5.Faster v/s slower
+
+Data types:-
+A)what value it can have or hold.
+B)what operation can be performed on it.
+
+Data Types:-
+Basic Data Types are
+1)Numbers
+
+a.Integer:-
+1.include 0,+ve whole no's,-ve whole no's
+2.Integer literals in a python are written without commas
+3.Leading -ve sign indicates a -ve value
+4.Python integer is much loonger and is limites only by the memory of your computer i.e no limitation on inteer type
+5.NO limitation on this dt
+
+b.Floating point:-
+1.Limitations on floatingpoint number
+
+c.Complex
+
+2)String
+-Raw string:-
+1.If you want to specify a string that should not handle any escape sequence & want to display exactly as specified then you need to specify that string as a raw atring
+2.A Rs can be specified by using r Or R TO the string
+
+print("HELLO\'"):-	HELLO'
+print(r"HELLO\'"):-	HELLO\'
+	
+3)Boolean
+1.A varbile of Boolean type can have one of the two values True or False
+
+Operators:
+1.Arithmetic floor division:-
+On performing floor division a / / b,result is the largest integer which is <= to the quotient(roundoff the value)
+
+2.Arithmetic modulus operator(%)
+a%b
+a-(b*(a//b))
+
+3.Arithmetic exp operator(**)
+base=2
+exp=3
+res=base**exp or res=pow(2,3)
+print(res):-8
+
+4.Logical:-(when we want to evaluate more than 1repression in single statement)
+the result of last expression will be res of entire expression
+k=11
+res=k<22 and 1122| res= and k<22                 
+print(res):-1122 | true   
+
+5.membership-in and not in 
+-Test for membership in a seq such as strings,lists, tuples
+- in operators:The operator returns true if a variable is found in the specified seq and false otherwise
+- not in:The operator returns true if a variable is not found in the specified seq and false otherwise
+
+6.identity -is and is not
+is: returns true if both operands on the both sides of operator are pointing to the same obj
+is not: returns true if both operands on the both sides of operator does not pointing to the same obj
