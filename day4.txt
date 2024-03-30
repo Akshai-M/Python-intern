@@ -1,0 +1,3 @@
+sequence_range()
+syntax:-
+range(start,end ,step)
