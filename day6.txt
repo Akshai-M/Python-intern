@@ -1,0 +1,76 @@
+05-11-2023
+
+String:-
+Series of characters defined by single,double or even triple quotes
+
+MULTILINE STRINGS:-
+3 ways:
+1.All but the last line ends with \
+2.Enclosed within """some mesg""" or "some mesg" or 'some msg'
+
+STRING INDEX:-
+1.Individual character in a string are accessed using the subscript[]
+
+String Index:-
+	P Y T H O N
+	0 1 2 3 4 5
+       -6 -5 -4 -3 -2 -1
+
+STRING PROPERTIES:-
+1.Immutable-they can't be changed
+2.Whenever you try to modify an existing string var, a new string is created.
+
+3.String can be repetition
+
+SLICE OPERATION:-
+1.A substring of a string is called a slice
+2.can take subset
+
+SLICE OPERATION:-
+*[string:end:stop]
+1.A sub-string can be sliced out a string.
+s[start:end]-extract from start or end-1
+s[start:]-extract from start or end
+s[end]-extract from start or end-1
+s[-start:]-extract from -start or (included)end
+s[:-end]-extract from beginning to -end-1
+
+STRING METHODS:-
+#test functions
+isalpha()
+isdigit()
+isalnum()
+islower()
+isupper()
+startwith()
+endswith()
+
+lstrip():-remove spaces from left including \t
+rstrip():-remove spaces from right including \t
+strip():-
+
+#search and replace
+find()-searches for a value,returns its position.
+replace()-replace one value with another
+
+#split and partition
+split():-split the string at a specified string
+partition():-partition string into 3 parts at first occurence of specified string.
+
+#join-different than concatenation.it joins string to each element of string1 except last.
+join(string1)
+
+#case conversion:-
+upper()
+lower()
+capitalize()
+title()
+swapcase()
+
+#Built-in function are used for string to number conversion and vv:
+str()-converts an int,float or complex to string
+int()
+float()
+complex()
+chr():- bulit-in() returns a string representing its unicode value known as code point
+ord()
