@@ -1,0 +1,4 @@
+def fun_name(parameter):
+'''documentation string'''
+statement_block
+return [expression]
